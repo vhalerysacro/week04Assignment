@@ -32,8 +32,8 @@ public class week04Assignment {
 	
 	//b.
 	String concatenateNames = ""; // concatenateNames 
-	for (String name : names) {
-	    concatenateNames += name + " ";
+	for (String name : names) { //enhanced for loop iterates through elements in names array
+	    concatenateNames += name + " "; //concatenate the names with space in between each name
 	}	System.out.println("Names: " + concatenateNames);
 	//3. to access the last element of an array, type in the data type first following .length - 1 after 
 	//4. to access the first element of an array is to use 0
