@@ -5,9 +5,9 @@ public class week04Assignment {
 	public static void main(String[] args) {
 	
 	//1.	
-	int[] ages = {3, 9, 23, 64, 2, 8, 28, 93}; 
+	int[] ages = {3, 9, 23, 64, 2, 8, 28, 93}; //array with values of ages
 	//a.
-	int difference = ages[0] - ages[ages.length - 1];
+	int difference = ages[0] - ages[ages.length - 1]; //difference of first element in ages and last
 	System.out.println("Difference: " + difference);
 	//b.
 	int[] ages2 = {45, 5, 22, 7, 33, 12, 63, 43, 88}; // [] after data type to create an array
