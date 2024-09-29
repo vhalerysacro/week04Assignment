@@ -51,9 +51,9 @@ public class week04Assignment {
 	
 	}
 	//7. 
-	public static String repeatedWords(String word, int number) { //declares repeatedWords with two parameters
+	public static String repeatedWords(String word, int n) { //declares repeatedWords with two parameters
 	String result = ""; //empty string that stores concatenated words
-	for ( int i = 1; i <= number; i++) { //initializes at 1, loops as long as its less than or equal to number, iterates by 1
+	for ( int i = 1; i <= n; i++) { //initializes at 1, loops as long as its less than or equal to n, iterates by 1
 	result = result + word; //adds word to the end of the result string
 
 	}
